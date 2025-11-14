@@ -48,7 +48,7 @@ int main() {
     string dep,nameEmployee;
     double sal;
     cin>>n;
-    Employee* employeeArr[1];
+    Employee* employeeArr[10];
     for (int i=0; i<n; i++){
         cin>>dep>>nameEmployee>>sal;
         if (dep=="Staff"){
